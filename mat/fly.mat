@@ -1,0 +1,302 @@
+## Materials script file for test harness
+##
+## $Id: fly.mat 1.1 1995/03/09 11:05:59 dan Exp $
+## $Locker: dan $
+
+material = [
+	identifier = "tundra";
+	ambient = 0.6;
+	diffuse = 0.4;
+	specular = 0;
+	power = 20;
+	flags = [perspective];
+	index_base = 0;
+	index_range = 63;
+	colour_map = "terrain.pix";
+	index_shade = "fly.tab";
+];
+
+material = [
+	identifier = "logo";
+	ambient = 0.4;
+	diffuse = 0.55;
+	specular = 0.05;
+	power = 10;
+	flags = [light,smooth];
+	index_base = 0;
+	index_range = 63;
+	colour_map = "logo.pix";
+	index_shade = "fly.tab";
+	map_transform = [[1,0],[0,-1],[0,0]];
+];
+
+material = [
+	identifier = "bodywork";
+	ambient = 0.2;
+	diffuse = 0.95;
+	specular = 0.05;
+	power = 20;
+	flags = [light];
+	index_base = 0;
+	index_range = 63;
+	colour_map = "saucer.pix";
+	index_shade = "fly.tab";
+];
+
+material = [
+	identifier = "roof";
+	ambient = 0.2;
+	diffuse = 0.95;
+	specular = 0.05;
+	power = 20;
+	flags = [light,smooth];
+	index_base = 0;
+	index_range = 63;
+	colour_map = "roof.pix";
+	index_shade = "fly.tab";
+];
+
+material = [
+	identifier = "planks";
+	ambient = 0.7;
+	diffuse = 0.25;
+	specular = 0.05;
+	power = 20;
+	flags = [light,smooth];
+	index_base = 0;
+	index_range = 63;
+	colour_map = "planks.pix";
+	index_shade = "fly.tab";
+];
+
+material = [
+	identifier = "x_chalet";
+	ambient = 0.6;
+	diffuse = 0.35;
+	specular = 0.05;
+	power = 20;
+	flags = [light,smooth];
+	index_base = 0;
+	index_range = 63;
+	colour_map = "x_chalet.pix";
+	index_shade = "fly.tab";
+	map_transform = [[1,0],[0,-1],[0,0]];
+];
+
+material = [
+	identifier = "shadow";
+	flags = [];
+	index_base = 8;
+	index_range = 0;
+	map_transform = [[1,0],[0,-1],[0,0]];
+];
+
+material = [
+	identifier = "bodywork";
+	ambient = 0.2;
+	diffuse = 0.95;
+	specular = 0.05;
+	power = 20;
+	flags = [light,smooth,perspective];
+	index_base = 0;
+	index_range = 63;
+	colour_map = "saucer.pix";
+	index_shade = "fly.tab";
+];
+
+material = [
+	identifier = "copt rad";
+	ambient = 0.65;
+	diffuse = 0.3;
+	specular = 0.05;
+	power = 20;
+	flags = [light,smooth];
+	index_base = 0;
+	index_range = 63;
+	colour_map = "grille2.pix";
+	index_shade = "fly.tab";
+];
+
+material = [
+	identifier = "copt body";
+	ambient = 0.2;
+	diffuse = 0.95;
+	specular = 0.05;
+	power = 20;
+	flags = [light,smooth];
+	index_base = 0;
+	index_range = 63;
+	colour_map = "copbod.pix";
+	index_shade = "fly.tab";
+];
+
+material = [
+	identifier = "roto arms";
+	ambient = 0.2;
+	diffuse = 0.95;
+	specular = 0.05;
+	power = 20;
+	flags = [light,smooth];
+	index_base = 0;
+	index_range = 63;
+	colour_map = "rotor.pix";
+	index_shade = "fly.tab";
+];
+
+material = [
+	identifier = "roto disc";
+	ambient = 0.2;
+	diffuse = 0.95;
+	specular = 0.05;
+	power = 20;
+	flags = [light,smooth,two_sided];
+	index_base = 0;
+	index_range = 63;
+	colour_map = "rot-dsc.pix";
+	index_shade = "fly.tab";
+];
+
+material = [
+	identifier = "ds floor";
+	ambient = 0.2;
+	diffuse = 0.95;
+	specular = 0.05;
+	power = 20;
+	flags = [perspective];
+	index_base = 0;
+	index_range = 63;
+	colour_map = "ds1txt.pix";
+	index_shade = "fly.tab";
+];
+
+material = [
+	identifier = "ds build";
+	ambient = 0.2;
+	diffuse = 0.95;
+	specular = 0.05;
+	power = 20;
+	flags = [perspective];
+	index_base = 0;
+	index_range = 63;
+	colour_map = "build.pix";
+	index_shade = "fly.tab";
+];
+
+material = [
+	identifier = "ds glow";
+	ambient = 0.2;
+	diffuse = 0.95;
+	specular = 0.05;
+	power = 20;
+	flags = [perspective,light,smooth];
+	index_base = 0;
+	index_range = 63;
+	colour_map = "ds-glow4.pix";
+	index_shade = "fly.tab";
+];
+
+material = [
+	identifier = "gh 2ndrow";
+	ambient = 0.2;
+	diffuse = 0.95;
+	specular = 0.05;
+	power = 20;
+	flags = [perspective];
+	index_base = 0;
+	index_range = 63;
+	colour_map = "blak2.pix";
+	index_shade = "fly.tab";
+];
+
+material = [
+	identifier = "gh 3rdrow";
+	ambient = 0.2;
+	diffuse = 0.95;
+	specular = 0.05;
+	power = 20;
+	flags = [perspective];
+	index_base = 0;
+	index_range = 63;
+	colour_map = "blak1.pix";
+	index_shade = "fly.tab";
+];
+
+material = [
+	identifier = "gh centre";
+	ambient = 0.2;
+	diffuse = 0.95;
+	specular = 0.05;
+	power = 20;
+	flags = [perspective];
+	index_base = 0;
+	index_range = 63;
+	colour_map = "skinh.pix";
+	index_shade = "fly.tab";
+];
+
+material = [
+	identifier = "gh lowest";
+	ambient = 0.2;
+	diffuse = 0.95;
+	specular = 0.05;
+	power = 20;
+	flags = [perspective];
+	index_base = 0;
+	index_range = 63;
+	colour_map = "ghlower2.pix";
+	index_shade = "fly.tab";
+];
+
+material = [
+	identifier = "gh lowest2";
+	ambient = 0.2;
+	diffuse = 0.95;
+	specular = 0.05;
+	power = 20;
+	flags = [perspective];
+	index_base = 0;
+	index_range = 63;
+	colour_map = "ghlower3.pix";
+	index_shade = "fly.tab";
+];
+
+material = [
+	identifier = "ds pit";
+	ambient = 0.2;
+	diffuse = 0.95;
+	specular = 0.05;
+	power = 20;
+	flags = [perspective];
+	index_base = 0;
+	index_range = 63;
+	colour_map = "ds-glow4.pix";
+	index_shade = "fly.tab";
+];
+
+material = [
+	identifier = "ds floor2";
+	ambient = 0.2;
+	diffuse = 0.95;
+	specular = 0.05;
+	power = 20;
+	flags = [perspective];
+	index_base = 0;
+	index_range = 63;
+	colour_map = "ds2txt.pix";
+	index_shade = "fly.tab";
+];
+
+material = [
+	identifier = "baize";
+	ambient = 0.2;
+	diffuse = 0.95;
+	specular = 0.05;
+	power = 20;
+	flags = [perspective];
+	index_base = 0;
+	index_range = 63;
+	colour_map = "baize.pix";
+	index_shade = "fly.tab";
+];
+
+

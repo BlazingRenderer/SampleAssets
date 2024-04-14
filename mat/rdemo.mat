@@ -1,0 +1,44 @@
+## Materials Script File 
+## $Id: $
+## $Locker: $
+
+material = [
+	identifier = "mirror";
+        ambient = 0.05;
+        diffuse = 0.45;
+        specular = 0.5;
+	power = 20;
+	flags = [smooth,light,environment_l];
+        index_base = 10;
+        index_range = 32;
+        index_shade = "reflection";
+##        colour_map =  "mirror_pm";
+];
+
+material = [
+	identifier = "earth";
+	ambient = 0.05;
+	diffuse = 0.45;
+	specular = 0.5;
+	power = 20;
+	flags = [light,smooth,dither];
+        index_base = 10;
+        index_range = 32;
+        index_shade = "shade_table";
+        colour_map = "earth";
+        map_transform=[[-1,0],[0,1],[0,0]];
+
+];
+
+material = [
+	identifier = "moon";
+	ambient = 0.05;
+	diffuse = 0.45;
+	specular = 0.5;
+	power = 20;
+	flags = [light,smooth,dither];
+        index_base = 10;
+        index_range = 32;
+        index_shade = "shade_table";
+        colour_map = "ast";
+];

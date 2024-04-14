@@ -1,0 +1,60 @@
+# Solid white for wire frame
+material = [
+	identifier = "white_wire";
+	flags = [always_visible, two_sided];
+	index_shade = "wire.tab";
+	index_base = 255;
+	index_range = 0;
+];
+
+material = [
+	identifier = "BRENDER";
+  colour = [163, 163, 163];
+ 	ambient = 0.15;
+ 	diffuse = 0.35;
+ 	specular = 0.15;
+  index_base = 176;
+  index_range = 380;
+	index_shade = "logo.tab";
+	map_transform = [[1.0,0],[0,1.0],[0.0,0.0]];
+];
+
+material = [
+	identifier = "ARGONAUT";
+  colour = [0, 0, 0];
+ 	ambient = 0.15;
+ 	diffuse = 0.35;
+ 	specular = 0.15;
+  index_base = 176;
+  index_range = 380;
+	index_shade = "logo.tab";
+	map_transform = [[1.0,0],[0,1.0],[0.0,0.0]];
+];
+
+material = [
+	identifier = "BLKPLASTIC";
+	flags = [always_visible];
+  colour = [1, 1, 1];
+	index_shade = "black.tab";
+	index_base = 254;
+	index_range = 0;
+];
+
+material = [
+	identifier = "charles";
+  colour = [173, 173, 173];
+ 	ambient = 0.15;
+ 	diffuse = 0.35;
+ 	specular = 0.15;
+	power = 10;
+	flags = [always_visible, two_sided, light,smooth,perspective];
+	colour_map = "charles.pix";
+	index_base = 0;
+	index_range = 168;
+	index_shade = "charles.tab";
+	map_transform = [[1.0,0],[0,1.0],[0.0,0.0]];
+];
+
+
+
+

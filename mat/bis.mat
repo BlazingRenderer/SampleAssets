@@ -1,0 +1,531 @@
+material = [
+	identifier = "rosewood";
+	ambient = 0.6;
+	diffuse = 0.45;
+	specular = 0.99;
+	power = 20;
+	flags = [light,smooth];
+	index_base = 0;
+	index_range = 63;
+	colour_map = "rosewood.pix";
+	index_shade = "bis.tab";
+];
+
+material = [
+	identifier = "rock";
+	ambient = 0.50;
+	diffuse = 0.40;
+	specular = 0.10;
+	power = 20;
+	flags = [light,smooth];
+	index_base = 0;
+	index_range = 63;
+	colour_map = "ast.pix";
+	index_shade = "bis.tab";
+];
+
+material = [
+	identifier = "ex-rock";
+	ambient = 0.35;
+	diffuse = 0.35;
+	specular = 0.3;
+	power = 20;
+	flags = [light,smooth];
+	index_base = 0;
+	index_range = 63;
+	colour_map = "rock.pix";
+	index_shade = "bis.tab";
+];
+
+material = [
+	identifier = "barrier";
+	power = 40;
+	flags = [];
+	index_base = 0;
+	index_range = 63;
+	colour_map = "barrier.pix";
+	index_shade = "bis.tab";
+];
+
+material = [
+	identifier = "jupiter";
+	ambient = 0.35;
+	diffuse = 0.35;
+	specular = 0.3;
+	power = 70;
+	flags = [light,smooth];
+	index_base = 15;
+	index_range = 45;
+	colour_map = "jupiter2.pix";
+	index_shade = "bis.tab";
+];
+
+material = [
+	identifier = "ex-jupiter";
+	ambient = 0.16;
+	diffuse = 0.55;
+	specular = 0.69;
+	power = 10;
+	flags = [light,smooth];
+	index_base = 0;
+	index_range = 63;
+	colour_map = "jupiter2.pix";
+	index_shade = "bis.tab";
+];
+
+material = [
+	identifier = "flame";
+	ambient = 0.16;
+	diffuse = 0.55;
+	specular = 0.69;
+	power = 10;
+	flags = [light,smooth];
+	index_base = 25;
+	index_range = 38;
+	colour_map = "flame.pix";
+	index_shade = "bis.tab";
+];
+
+
+material = [
+	identifier = "red metal";
+	ambient = 0.30;
+	diffuse = 0.90;
+	specular = 0.11;
+	power = 20;
+	flags = [light,smooth];
+	index_base = 0;
+	index_range = 57;
+	colour_map = "flame.pix";
+	index_shade = "bis.tab";
+];
+
+material = [
+	identifier = "orange plstc";
+	ambient = 0.30;
+	diffuse = 0.60;
+	specular = 0.09;
+	power = 10;
+	flags = [smooth,light];
+	index_base = 160;
+	index_range = 31;
+];
+
+material = [
+	identifier = "white plstc";
+	ambient = 0.25;
+	diffuse = 0.25;
+	specular = 0.50;
+	power = 20;
+	flags = [light,smooth];
+	index_base = 0;
+	index_range = 31;
+];
+
+material = [
+	identifier = "grey plstc";
+	ambient = 0.10;
+	diffuse = 0.60;
+	specular = 0.40;
+	power = 30;
+	flags = [light,smooth];
+	index_base = 20;
+	index_range = 36;
+];
+
+material = [
+	identifier = "green plstc";
+	ambient = 0.10;
+	diffuse = 0.60;
+	specular = 0.40;
+	power = 30;
+	flags = [light,smooth];
+	index_base = 96;
+	index_range = 31;
+];
+
+material = [
+	identifier = "yellow plstc";
+	ambient = 0.10;
+	diffuse = 0.60;
+	specular = 0.40;
+	power = 30;
+	flags = [light,smooth];
+	index_base = 128;
+	index_range = 31;
+];
+
+material = [
+	identifier = "box field";
+	ambient = 0.70;
+	diffuse = 0.10;
+	specular = 0.10;
+	power = 30;
+	flags = [two_sided];
+	index_base = 68;
+	index_range = 0;
+];
+
+material = [
+	identifier = "box";
+	ambient = 0.10;
+	diffuse = 0.60;
+	specular = 0.99;
+	power = 40;
+	flags = [light,smooth];
+	index_base = 0;
+	index_range = 63;
+];
+
+material = [
+	identifier = "banner";
+	ambient = 0.16;
+	diffuse = 0.35;
+	specular = 0.69;
+	power = 70;
+	flags = [light,smooth];
+	index_base = 0;
+	index_range = 63;
+	colour_map = "logo.pix";
+	index_shade = "bis.tab";
+];
+
+material = [
+	identifier = "chrome blue sky";
+	ambient = 0.16;
+	diffuse = 0.55;
+	specular = 0.69;
+	power = 70;
+	flags = [light,smooth];
+	index_base = 0;
+	index_range = 63;
+];
+
+material = [
+	identifier = "gray marble";
+	ambient = 0.16;
+	diffuse = 0.55;
+	specular = 0.69;
+	power = 20;
+	flags = [light,smooth];
+	index_base = 3;
+	index_range = 60;
+	colour_map = "wires.pix";
+	index_shade = "bis.tab";
+];
+
+material = [
+	identifier = "grey bumpy cloth";
+	ambient = 0.16;
+	diffuse = 0.55;
+	specular = 0.69;
+	power = 20;
+	flags = [light,smooth];
+	index_base = 15;
+	index_range = 45;
+	colour_map = "wcloth.pix";
+	index_shade = "bis.tab";
+];
+
+material = [
+	identifier = "stone composite";
+	ambient = 0.16;
+	diffuse = 0.55;
+	specular = 0.69;
+	power = 70;
+	flags = [light,smooth];
+	index_base = 15;
+	index_range = 45;
+	colour_map = "wplastic.pix";
+	index_shade = "bis.tab";
+];
+
+material = [
+	identifier = "white matte";
+	ambient = 0.16;
+	diffuse = 0.55;
+	specular = 0.69;
+	power = 30;
+	flags = [light,smooth];
+	index_base = 15;
+	index_range = 45;
+	colour_map = "wplastic.pix";
+	index_shade = "bis.tab";
+];
+
+material = [
+	identifier = "leaded bmp glass";
+	ambient = 0.16;
+	diffuse = 0.55;
+	specular = 0.69;
+	power = 30;
+	flags = [light,smooth];
+	index_base = 0;
+	index_range = 63;
+	colour_map = "wplastic.pix";
+];
+
+material = [
+	identifier = "tile graygranite";
+	ambient = 0.16;
+	diffuse = 0.55;
+	specular = 0.69;
+	power = 70;
+	flags = [light,smooth];
+	index_base = 0;
+	index_range = 63;
+	colour_map = "wires.pix";
+	index_shade = "bis.tab";
+];
+
+material = [
+	identifier = "zigzag pattern";
+	ambient = 0.16;
+	diffuse = 0.55;
+	specular = 0.69;
+	power = 20;
+	flags = [light,smooth];
+	index_base = 0;
+	index_range = 63;
+	colour_map = "lights.pix";
+	index_shade = "bis.tab";
+];
+
+material = [
+	identifier = "null";
+	ambient = 0.16;
+	diffuse = 0.55;
+	specular = 0.69;
+	power = 20;
+	flags = [light,smooth];
+	index_base = 0;
+	index_range = 63;
+	colour_map = "brender.pix";
+	index_shade = "bis.tab";
+];
+
+material = [
+	identifier = "stars1";
+	ambient = 0.10;
+	diffuse = 0.80;
+	specular = 0.40;
+	power = 100;
+	flags = [];
+	index_base = 63;
+	index_range = 0;
+];
+
+material = [
+	identifier = "stars2";
+	ambient = 0.10;
+	diffuse = 0.80;
+	specular = 0.40;
+	power = 100;
+	flags = [];
+	index_base = 178;
+	index_range = 0;
+];
+
+material = [
+	identifier = "stars3";
+	ambient = 0.10;
+	diffuse = 0.80;
+	specular = 0.40;
+	power = 100;
+	flags = [];
+	index_base = 112;
+	index_range = 0;
+];
+
+material = [
+	identifier = "earth2";
+	ambient = 0.05;
+	diffuse = 0.30;
+	specular = 0.99;
+	power = 20;
+	flags = [light,smooth];
+	index_base = 0;
+	index_range = 63;
+	colour_map = "earth2.pix";
+	index_shade = "bis.tab";
+];
+
+material = [
+	identifier = "arrow";
+	ambient = 0.10;
+	diffuse = 0.80;
+	specular = 0.40;
+	power = 100;
+	flags = [];
+	index_base = 178;
+	index_range = 0;
+];
+
+material = [
+	identifier = "space leg";
+	ambient = 0.16;
+	diffuse = 0.55;
+	specular = 0.69;
+	power = 20;
+	flags = [light,smooth];
+	index_base = 15;
+	index_range = 45;
+	colour_map = "s-leg.pix";
+	index_shade = "bis.tab";
+];
+
+material = [
+	identifier = "space helmet";
+	ambient = 0.16;
+	diffuse = 0.55;
+	specular = 0.69;
+	power = 20;
+	flags = [light,smooth];
+	index_base = 15;
+	index_range = 45;
+	colour_map = "s-helmet.pix";
+	index_shade = "bis.tab";
+];
+
+material = [
+	identifier = "space hip";
+	ambient = 0.16;
+	diffuse = 0.55;
+	specular = 0.69;
+	power = 20;
+	flags = [light,smooth];
+	index_base = 15;
+	index_range = 45;
+	colour_map = "s-hip.pix";
+	index_shade = "bis.tab";
+];
+
+material = [
+	identifier = "space body";
+	ambient = 0.16;
+	diffuse = 0.55;
+	specular = 0.69;
+	power = 20;
+	flags = [light,smooth];
+	index_base = 15;
+	index_range = 45;
+	colour_map = "s-body.pix";
+	index_shade = "bis.tab";
+];
+
+material = [
+	identifier = "space arm";
+	ambient = 0.16;
+	diffuse = 0.55;
+	specular = 0.69;
+	power = 20;
+	flags = [light,smooth];
+	index_base = 15;
+	index_range = 45;
+	colour_map = "s-arm.pix";
+	index_shade = "bis.tab";
+];
+
+material = [
+	identifier = "butt";
+	ambient = 0.16;
+	diffuse = 0.55;
+	specular = 0.69;
+	power = 20;
+	flags = [light,smooth];
+	index_base = 15;
+	index_range = 45;
+	colour_map = "butt.pix";
+	index_shade = "bis.tab";
+];
+
+material = [
+	identifier = "shield";
+	ambient = 0.16;
+	diffuse = 0.55;
+	specular = 0.69;
+	power = 20;
+	flags = [light,smooth,two_sided];
+	index_base = 15;
+	index_range = 45;
+	colour_map = "shield.pix";
+	index_shade = "bis.tab";
+];
+
+material = [
+	identifier = "barrel";
+	ambient = 0.16;
+	diffuse = 0.55;
+	specular = 0.69;
+	power = 20;
+	flags = [light,smooth];
+	index_base = 15;
+	index_range = 45;
+	colour_map = "barrel.pix";
+	index_shade = "bis.tab";
+];
+
+material = [
+	identifier = "bug body";
+	ambient = 0.16;
+	diffuse = 0.55;
+	specular = 0.69;
+	power = 20;
+	flags = [light,smooth];
+	index_base = 15;
+	index_range = 45;
+	colour_map = "bug-bod.pix";
+	index_shade = "bis.tab";
+];
+
+material = [
+	identifier = "bug stars";
+	ambient = 0.16;
+	diffuse = 0.55;
+	specular = 0.69;
+	power = 20;
+	flags = [light,smooth];
+	index_base = 15;
+	index_range = 45;
+	colour_map = "bug-bmp.pix";
+	index_shade = "bis.tab";
+];
+
+material = [
+	identifier = "bug head";
+	ambient = 0.16;
+	diffuse = 0.55;
+	specular = 0.69;
+	power = 20;
+	flags = [light,smooth];
+	index_base = 15;
+	index_range = 45;
+	colour_map = "bug-hd.pix";
+	index_shade = "bis.tab";
+];
+
+material = [
+	identifier = "bug dish";
+	ambient = 0.16;
+	diffuse = 0.55;
+	specular = 0.69;
+	power = 20;
+	flags = [light,smooth];
+	index_base = 15;
+	index_range = 45;
+	colour_map = "bug-dish.pix";
+	index_shade = "bis.tab";
+];
+
+material = [
+	identifier = "bug wing";
+	ambient = 0.16;
+	diffuse = 0.55;
+	specular = 0.69;
+	power = 20;
+	flags = [light,smooth];
+	index_base = 15;
+	index_range = 45;
+	colour_map = "bugwing.pix";
+	index_shade = "bis.tab";
+];

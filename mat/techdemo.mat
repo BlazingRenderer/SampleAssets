@@ -1,0 +1,249 @@
+## Materials script file for test harness
+##
+## $Id: $
+## $Locker: $
+
+# Smooth and flat versions of all the ramps in the test palette
+#
+material = [
+	identifier = "grey";
+	flags = [light,smooth];
+	colour = [255,255,255];
+	ambient = 0.1; diffuse = 0.6; specular = 0.0;
+	power = 30;
+	index_base = 0; index_range = 63;
+	index_shade = "shade.tab";
+];
+
+material = [
+	identifier = "grey_flat";
+	flags = [light];
+	colour = [255,255,255];
+	ambient = 0.1; diffuse = 0.6; specular = 0.0;
+	power = 20;
+	index_base = 0; index_range = 63;
+	index_shade = "shade.tab";
+];
+
+material = [
+	identifier = "RED";
+	flags = [light,smooth];
+	colour = [255,0,0];
+	ambient = 0.1; diffuse = 0.6; specular = 0.4;
+	power = 20;
+	index_base = 160; index_range = 31;
+	index_shade = "shade.tab";
+];
+
+material = [
+	identifier = "red_flat";
+	flags = [light];
+	colour = [255,0,0];
+	ambient = 0.1; diffuse = 0.6; specular = 0.4;
+	power = 20;
+	index_base = 160; index_range = 31;
+	index_shade = "shade.tab";
+];
+
+material = [
+	identifier = "GREEN";
+	flags = [light,smooth];
+	colour = [0,255,0];
+	ambient = 0.1; diffuse = 0.6; specular = 0.4;
+	power = 20;
+	index_base = 96; index_range = 31;
+	index_shade = "shade.tab";
+];
+
+material = [
+	identifier = "green_flat";
+	flags = [light];
+	colour = [0,255,0];
+	ambient = 0.1; diffuse = 0.6; specular = 0.4;
+	power = 20;
+	index_base = 96; index_range = 31;
+	index_shade = "shade.tab";
+];
+
+material = [
+	identifier = "BLUE";
+	flags = [light,smooth];
+	colour = [0,0,255];
+	ambient = 0.1; diffuse = 0.6; specular = 0.4;
+	power = 20;
+	index_base = 64; index_range = 31;
+	index_shade = "shade.tab";
+];
+
+material = [
+	identifier = "blue_flat";
+	flags = [light];
+	colour = [0,0,255];
+	ambient = 0.1; diffuse = 0.6; specular = 0.4;
+	power = 20;
+	index_base = 64; index_range = 31;
+	index_shade = "shade.tab";
+];
+
+material = [
+	identifier = "cyan";
+	flags = [light,smooth];
+	colour = [0,255,255];
+	ambient = 0.1; diffuse = 0.6; specular = 0.4;
+	power = 20;
+	index_base = 128; index_range = 31;
+	index_shade = "shade.tab";
+];
+
+material = [
+	identifier = "cyan_flat";
+	flags = [light];
+	colour = [0,255,255];
+	ambient = 0.1; diffuse = 0.6; specular = 0.4;
+	power = 20;
+	index_base = 128; index_range = 31;
+	index_shade = "shade.tab";
+];
+
+material = [
+	identifier = "magenta";
+	flags = [light,smooth];
+	colour = [255,0,255];
+	ambient = 0.1; diffuse = 0.6; specular = 0.4;
+	power = 20;
+	index_base = 192; index_range = 31;
+	index_shade = "shade.tab";
+];
+
+material = [
+	identifier = "magenta_flat";
+	flags = [light];
+	colour = [255,0,255];
+	ambient = 0.1; diffuse = 0.6; specular = 0.4;
+	power = 20;
+	index_base = 192; index_range = 31;
+	index_shade = "shade.tab";
+];
+
+material = [
+	identifier = "YELLOW";
+	flags = [light,smooth];
+	colour = [255,255,0];
+	ambient = 0.1; diffuse = 0.6; specular = 0.4;
+	power = 20;
+	index_base = 224; index_range = 31;
+	index_shade = "shade.tab";
+];
+
+material = [
+	identifier = "yellow_flat";
+	flags = [light];
+	colour = [255,255,0];
+	ambient = 0.1; diffuse = 0.6; specular = 0.4;
+	power = 20;
+	index_base = 224; index_range = 31;
+	index_shade = "shade.tab";
+];
+
+material = [
+	identifier = "unlit";
+	flags = [light];
+	colour = [255,255,255];
+	ambient = 0.1; diffuse = 0.6; specular = 0.4;
+	power = 20;
+	index_base = 50; index_range = 5;
+	index_shade = "shade.tab";
+];
+
+# some textures
+
+
+material = [
+	identifier = "rosewood";
+	flags = [light, smooth];
+	colour = [255,255,0];
+	ambient = 0.1; diffuse = 0.6; specular = 0.4;
+	power = 20;
+	index_base = 224; index_range = 31;
+	index_shade = "shade.tab";
+	colour_map = "rosewood.pix";
+];
+
+material = [
+	identifier = "mandrill";
+	flags = [light, smooth];
+	colour = [255,255,0];
+	ambient = 0.1; diffuse = 0.6; specular = 0.4;
+	power = 20;
+	index_base = 224; index_range = 31;
+	index_shade = "shade.tab";
+	colour_map = "mandrill.pix";
+];
+
+material = [
+	identifier = "earth";
+	flags = [light, smooth];
+	colour = [255,255,0];
+	ambient = 0.1; diffuse = 0.6; specular = 0.4;
+	power = 20;
+	index_base = 224; index_range = 31;
+	index_shade = "shade.tab";
+	colour_map = "earth.pix";
+];
+
+
+material = [
+	identifier = "barrier";
+	flags = [light, smooth];
+	colour = [255,255,0];
+	ambient = 0.1; diffuse = 0.6; specular = 0.4;
+	power = 20;
+	index_base = 224; index_range = 31;
+	index_shade = "bis.tab";
+	colour_map = "barrier.pix";
+];
+
+material = [
+	identifier = "logo";
+	flags = [light, smooth];
+	colour = [255,255,0];
+	ambient = 0.1; diffuse = 0.6; specular = 0.4;
+	power = 20;
+	index_base = 224; index_range = 31;
+	index_shade = "bis.tab";
+	colour_map = "logo.pix";
+];
+
+material = [
+	identifier = "ast";
+	flags = [light, smooth];
+	colour = [255,255,0];
+	ambient = 0.1; diffuse = 0.6; specular = 0.4;
+	power = 20;
+	index_base = 224; index_range = 31;
+	index_shade = "bis.tab";
+	colour_map = "ast.pix";
+];
+
+material = [
+	identifier = "light, smooths";
+	flags = [light, smooth];
+	colour = [255,255,0];
+	ambient = 0.1; diffuse = 0.6; specular = 0.4;
+	power = 20;
+	index_base = 224; index_range = 31;
+	index_shade = "bis.tab";
+	colour_map = "light, smooths.pix";
+];
+
+material = [
+	identifier = "shield";
+	flags = [light, smooth];
+	colour = [255,255,0];
+	ambient = 0.1; diffuse = 0.6; specular = 0.4;
+	power = 20;
+	index_base = 224; index_range = 31;
+	index_shade = "bis.tab";
+	colour_map = "shield.pix";
+];
+

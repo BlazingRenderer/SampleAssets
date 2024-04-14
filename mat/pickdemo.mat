@@ -1,0 +1,83 @@
+## BRender Material Script
+
+
+## Materials script file for test harness
+##
+## $Id: pickdemo.mat 1.2 1996/12/05 13:11:11 STEVEW Exp $
+## $Locker: $
+
+#  Smooth versions of all the ramps in the test palette
+#
+
+material = [
+	identifier = "red";
+	flags = [light,smooth];
+	colour = [255,0,0];
+	ambient = 0.1; diffuse = 0.6; specular = 0.4;
+	power = 20;
+	index_base = 138; 
+        index_range = 31;
+];
+
+material = [
+	identifier = "green";
+	flags = [light,smooth];
+	colour = [0,255,0];
+	ambient = 0.1; diffuse = 0.6; specular = 0.4;
+	power = 20;
+	index_base = 74; 
+        index_range = 31;
+];
+
+material = [
+	identifier = "blue";
+	flags = [light,smooth];
+	colour = [0,0,255];
+	ambient = 0.1; diffuse = 0.6; specular = 0.4;
+	power = 20;
+	index_base = 42; index_range = 31;
+];
+
+
+material = [
+	identifier = "yellow";
+	flags = [light,smooth];
+        colour = [255,255,0];
+	ambient = 0.1; diffuse = 0.6; specular = 0.4;
+	power = 20;
+	index_base = 202; 
+        index_range = 31;
+];
+
+material = [
+	identifier = "cyan";
+	flags = [light,smooth];
+        colour = [0,255,255];
+	ambient = 0.1; diffuse = 0.6; specular = 0.4;
+	power = 20;
+	index_base = 106; 
+        index_range = 31;
+];
+
+material = [
+	identifier = "magenta";
+	flags = [light,smooth];
+        colour = [255,0,255];
+	ambient = 0.1; diffuse = 0.6; specular = 0.4;
+	power = 20;
+	index_base = 170; 
+        index_range = 31;
+];
+
+
+material = [
+	identifier = "Earth";
+	flags = [light,smooth];
+	ambient = 0.2; diffuse = 0.3; specular = 0.2;
+	power = 20;
+	index_base = 170; 
+        index_range = 31;
+        colour_map = "earthw.pix" ;
+        index_shade = "shade_table" ;
+];
+

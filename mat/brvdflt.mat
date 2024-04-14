@@ -1,0 +1,121 @@
+# BRView Material Script
+#
+
+material = [
+    identifier = "Grey";
+    colour = [147,147,147];
+    ambient = 0.259995;
+    diffuse = 0.109955;
+    specular = 0.389969;
+    power = 100.000000;
+    index_range = 29;
+];
+
+material = [
+    identifier = "Blue";
+    colour = [60,60,238];
+    ambient = 0.459961;
+    diffuse = 0.099991;
+    specular = 0.139969;
+    power = 100.000000;
+    index_base = 30;
+    index_range = 27;
+];
+
+material = [
+    identifier = "Green";
+    colour = [60,238,60];
+    ambient = 0.029999;
+    diffuse = 0.529999;
+    specular = 0.379990;
+    power = 100.000000;
+    index_base = 58;
+    index_range = 27;
+];
+
+material = [
+    identifier = "Cyan";
+    colour = [60,238,238];
+    ambient = 0.039963;
+    diffuse = 0.539963;
+    specular = 0.389969;
+    power = 100.000000;
+    index_base = 86;
+    index_range = 27;
+];
+
+material = [
+    identifier = "Red";
+    colour = [250,10,10];
+    ambient = 0.029999;
+    diffuse = 0.529999;
+    specular = 0.379990;
+    power = 100.000000;
+    index_base = 114;
+    index_range = 27;
+];
+
+material = [
+    identifier = "Magenta";
+    colour = [238,60,238];
+    ambient = 0.269974;
+    diffuse = 0.039963;
+    specular = 0.319977;
+    power = 100.000000;
+    index_base = 142;
+    index_range = 27;
+];
+
+material = [
+    identifier = "Yellow";
+    colour = [238,238,60];
+    ambient = 0.459961;
+    diffuse = 0.079987;
+    specular = 0.329987;
+    power = 100.000000;
+    index_base = 170;
+    index_range = 27;
+];
+
+material = [
+    identifier = "Brown";
+    colour = [100,100,100];
+    ambient = 0.519974;
+    diffuse = 0.139969;
+    specular = 0.129990;
+    power = 100.000000;
+    index_base = 198;
+    index_range = 27;
+];
+
+material = [
+    identifier = "Orange";
+    colour = [100,100,100];
+    ambient = 0.559998;
+    diffuse = 0.079987;
+    specular = 0.259995;
+    power = 100.000000;
+    index_base = 226;
+    index_range = 27;
+];
+
+material = [
+    identifier = "Black";
+    colour = [147,147,147];
+    diffuse = 0.099991;
+    specular = 0.099991;
+    power = 100.000000;
+    index_range = 29;
+];
+
+material = [
+    identifier = "White";
+    colour = [147,147,147];
+    ambient = 0.500000;
+    diffuse = 0.549988;
+    specular = 0.399994;
+    power = 100.000000;
+    index_range = 29;
+];
+
+
